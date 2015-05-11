@@ -1,0 +1,11 @@
+<%= simple_form_for(@user, :as => :user, :url => account_create_path) do |f| %>
+    <%= f.error_notification %>
+
+    <div class="form-inputs">
+      <%= f.input :email, required: true, :placeholder => User.human_attribute_name(:email) %>
+    </div>
+
+    <div class="form-actions">
+      <%= f.button :submit, I18n.t('buttons.finish_registration') %>
+    </div>
+<% end %>
