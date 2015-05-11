@@ -8,8 +8,6 @@ gem 'rails', '4.2.1'
 gem 'pg'
 #sudo env ARCHFLAGS="-arch x86_64" gem install pg
 
-# Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
@@ -35,7 +33,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Custom >
 gem "therubyracer"
 gem "less-rails"
-
+gem 'sass-rails'
+gem "compass-rails", '>= 2.0.4'
+gem 'bootstrap-sass'
 gem "twitter-bootstrap-rails"
 # rails g bootstrap:install
 # rails g bootstrap:layout application fixed
@@ -86,6 +86,7 @@ gem 'oj'
 gem 'gon'
 #use jsonview chrome extension
 
+gem 'eco'
 
 # Custom <
 
