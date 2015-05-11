@@ -6,5 +6,6 @@
 - rabl + oj + gon
 - simple_form
 - twitter-bootstrap-rails
+- marionette with dependencies
 
 turbolinks removed
